@@ -30,4 +30,4 @@ The app teaches basic vocabulary such as **colors, numbers, alphabets, and famil
 
 ### To Clone the repository:
 ```bash
-git clone https://github.com/yousef-mahmoud-2002/tutor.git
+git clone https://github.com/yousef-mahmoud-2002/See-Say.git
