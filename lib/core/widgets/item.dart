@@ -17,7 +17,6 @@ class Item extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TTSHelper ttsHelper = TTSHelper();
     return Container(
       height: 100.0,
       color: color,
@@ -59,7 +58,7 @@ class Item extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {
-              ttsHelper.speakWord(item.enName, item.arName);
+              TTSHelper.speakWord(item.enName, item.arName);
             },
             icon: const Icon(
               Icons.play_arrow,

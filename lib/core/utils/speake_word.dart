@@ -1,24 +1,24 @@
 import 'package:flutter_tts/flutter_tts.dart';
 
 class TTSHelper {
-  final FlutterTts _flutterTts = FlutterTts();
+  static final FlutterTts flutterTts = FlutterTts();
 
-  TTSHelper() {
-    _init();
+  static Future<void> init() async {
+    await flutterTts.setSpeechRate(0.4);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.awaitSpeakCompletion(true);
+    await flutterTts.speak(" ");
   }
 
-  Future<void> _init() async {
-    await _flutterTts.setSpeechRate(0.4);
-    await _flutterTts.setPitch(1.0);
-  }
+  static Future<void> speakWord(String englishWord, String arabicWord) async {
+    await flutterTts.setLanguage("en-US");
+    await flutterTts.speak(englishWord);
+    await flutterTts.awaitSpeakCompletion(true);
 
-  Future<void> speakWord(String englishWord, String arabicWord) async {
-    await _flutterTts.setLanguage("en-US");
-    await _flutterTts.speak(englishWord);
+    await Future.delayed(const Duration(microseconds: 500));
 
-    await Future.delayed(const Duration(seconds: 1));
-
-    await _flutterTts.setLanguage("ar-SA");
-    await _flutterTts.speak(arabicWord);
+    await flutterTts.setLanguage("ar-SA");
+    await flutterTts.speak(arabicWord);
+    await flutterTts.awaitSpeakCompletion(true);
   }
 }
