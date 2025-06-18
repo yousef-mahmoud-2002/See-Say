@@ -1,6 +1,6 @@
-# 📚 Tutor App – English Learning for Kids🧒
+# 📚 See & Say App – English Learning for Kids🧒
 
-**Tutor App** is an educational Flutter application designed to help kids learn English in a fun and engaging way.  
+**See & Say App** is an educational Flutter application designed to help kids learn English in a fun and engaging way.  
 The app teaches basic vocabulary such as **colors, numbers, alphabets, and family members** using **pictures** and **audio pronunciation**, with support for **Arabic translations**.
 
 ---
