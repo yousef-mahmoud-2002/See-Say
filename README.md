@@ -25,9 +25,6 @@ The app teaches basic vocabulary such as **colors, numbers, alphabets, and famil
  <img src="screenshots/home.png" width=200/> | <img src="screenshots/numbers.png" width=200/> | <img src="screenshots/familyMembers.png" width=200/> | <img src="screenshots/colors.png" width=200/> | <img src="screenshots/alphabet.png" width=200/> 
 
 ---
+## 🔗 Download
 
-## 🚀 Getting Started
-
-### To Clone the repository:
-```bash
-git clone https://github.com/yousef-mahmoud-2002/See-Say.git
+You can download the latest release from the [Releases section](https://github.com/yousef-mahmoud-2002/See-Say/releases/tag/v1.0.0)
