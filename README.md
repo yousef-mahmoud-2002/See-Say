@@ -20,9 +20,9 @@ The app teaches basic vocabulary such as **colors, numbers, alphabets, and famil
 
 ## 📸 Screenshots
 
-| Home Screen | Numbers Section | Family Members Section | Colors Section | Alphabet Section |
-|-------------|-----------------|------------------------|----------------|------------------|
-| ![home](screenshots/home.png) | ![numbers](screenshots/numbers.png) | ![familyMembers](screenshots/familyMembers.png) | ![colors](screenshots/colors.png) | ![alphabet](screenshots/alphabet.png) |
+| Home Screen | Numbers Section | Family Section | Colors Section | Alphabet Section |
+|-------------|-----------------|----------------|----------------|------------------|
+ <img src="screenshots/home.png" width=200/> | <img src="screenshots/numbers.png" width=200/> | <img src="screenshots/familyMembers.png" width=200/> | <img src="screenshots/colors.png" width=200/> | <img src="screenshots/alphabet.png" width=200/> 
 
 ---
 
